@@ -6,22 +6,15 @@ const cors = require("cors");
 console.log("new update");
 app.use(cors());
 
-const express = require("express");
-const app = express();
-const mongoose = require("mongoose");
-const cors = require("cors");
-
-console.log("new update");
-app.use(cors());
-
 if (true) {
-  console.log("ice cream");
+  console.log("no chocolate");
 } else {
-  console.log("no ice cream");
+  let value = false;
+  if (!value) {
+    console.log("no ice cream");
+  } else {
+    console.log("may be ice cream");
+  }
 }
-
-console.log("create new feature");
-
-app.listen(3000, () => console.log("server runing in port 3000"));
 
 app.listen(3000, () => console.log("server runing in port 3000"));
