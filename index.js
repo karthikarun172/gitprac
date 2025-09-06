@@ -7,9 +7,9 @@ console.log("new update");
 app.use(cors());
 
 if (true) {
-  console.log("vannila");
+  console.log("black current");
 } else {
-  console.log("no vanila");
+  console.log("no black current");
 }
 
 console.log("create new feature");
