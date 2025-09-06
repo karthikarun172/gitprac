@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
+const UserRoute = require("./Route/auth")
 
 console.log("new update");
 app.use(cors());
+app.use("/",UserRoute)
 
 if (true) {
   console.log("vannila");
