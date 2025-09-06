@@ -9,10 +9,11 @@ app.use(cors());
 app.use("/",UserRoute)
 console.log("🍫 Feature branch special commit");
 
+// index.js  (change these exact lines)
 if (true) {
-  console.log("vannila");
+  console.log("vanilla");
 } else {
-  console.log("no vanila");
+  console.log("no vanilla");
 }
 
 console.log("create new feature");
