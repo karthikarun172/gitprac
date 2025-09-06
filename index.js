@@ -7,11 +7,11 @@ console.log("new update");
 app.use(cors());
 
 if (true) {
-  console.log("no chocolate");
+  console.log("vanilla");
 } else {
   let value = false;
   if (!value) {
-    console.log("no ice cream");
+    console.log("no chocolate");
   } else {
     console.log("may be ice cream");
   }
