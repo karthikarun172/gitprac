@@ -17,4 +17,6 @@ if (true) {
   }
 }
 
+console.log("create new feature");
+
 app.listen(3000, () => console.log("server runing in port 3000"));
